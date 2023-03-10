@@ -86,7 +86,6 @@ describe('POST /schedules', () => {
       status: 201,
       expectBody: { message: 'Schedule created' },
     };
-
     expect(response.status).toBe(expectResults.status);
     expect(response.body).toEqual(expectResults.expectBody);
   });
